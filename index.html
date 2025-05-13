@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arturo de la Cruz | TSU en Tecnologías de la Información</title>
+    <link rel="icon" type="image/png" href="img/acs.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/portafolio.css">
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+<body>
+
+    <!-- Loader -->
+    <div class="loader-container" id="loader">
+        <div class="loader-tech">
+            <div class="loader-spinner"></div>
+            <div class="loader-text">Cargando portafolio...</div>
+        </div>
+    </div>
+
+    <!-- Menú -->
+    <header>
+        <a href="#inicio" class="logo">
+            <img src="img/acs.png" alt="Arturo de la Cruz Sánchez - Desarrollador Web" class="logo-image">
+        </a>
+        
+        <button id="menu-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+        <nav>
+            <ul>
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                <li><a href="#experiencia" class="nav-link">Experiencia</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+            <a href="docs/CV_ArturodelaCruzSanchez.pdf" class="btn-cv">Descargar CV</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+     <div id="particles-js">
+         </div>
+         <section id="inicio" class="hero">
+             <div class="hero-content">
+                 <p class="hero-subtitle">TSU en Tecnologías de la Información</p>
+                 <h1 class="hero-title">
+                     <span class="typewriter">Hola, soy Arturo de la Cruz</span>
+                 </h1>       
+                 <p class="hero-description">
+                     Desarrollador web con 1.5 años de experiencia especializado en creación de soluciones digitales innovadoras. 
+                     Experto en entornos virtuales y negocios digitales.
+                 </p>
+                 
+                 <div class="hero-buttons">
+                     <a href="#proyectos" class="btn btn-primary">
+                         Ver mis proyectos
+                     </a>
+                     <a href="#contacto" class="btn btn-secondary">
+                         Contáctame
+                     </a>
+                 </div>
+             </div>
+             
+             <!-- Hero Image -->
+             <div class="hero-image">
+                 <div class="tech-circle">
+                     <img src="img/yo.jpg" alt="Foto" class="profile-image">
+     
+                     <!-- Iconos flotantes -->
+                     <i class="fab fa-html5 tech-icon" style="top: -20px; left: 50%; transform: translateX(-50%);"></i>
+                     <i class="fab fa-css3-alt tech-icon" style="right: -20px; top: 50%; transform: translateY(-50%);"></i>
+                     <i class="fab fa-js-square tech-icon" style="bottom: -20px; left: 50%; transform: translateX(-50%);"></i>
+                     <i class="fab fa-python tech-icon" style="left: -20px; top: 50%; transform: translateY(-50%);"></i>
+                 </div>
+             </div>        
+             <div class="scroll-down">
+                 <span>Desplázate</span>
+                 <i class="fas fa-chevron-down"></i>
+             </div>
+         </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="section">
+        <div class="section-header">
+            <h2>Mis <span>Proyectos</span></h2>
+            <p>Algunos de mis trabajos recientes</p>
+        </div>
+        
+        <div class="projects-container">
+            <!-- Proyecto 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/eme.jpeg" alt="Proyecto 1">
+                    <div class="project-links">
+                        <a href="../../E.M.E" class="project-link">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Sistema de Gestión Educativa</h3>
+                    <p>Plataforma para administración escolar con módulos para alumnos, profesores y administradores.</p>
+                    <div class="project-tech">
+                        <span>Laravel</span>
+                        <span>React</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Proyecto 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/cafe.jpeg" alt="Proyecto 2">
+                    <div class="project-links">
+                        <a href="../../cafeteria" class="project-link">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>E-commerce UTZin</h3>
+                    <p>Tienda en línea con carrito de compras, pasarela de pagos y panel administrativo.</p>
+                    <div class="project-tech">
+                        <span>PHP</span>
+                        <span>JavaScript</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Proyecto 3 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/geo.jpeg" alt="Proyecto 3">
+                    <div class="project-links">
+                        <a href="../../DAVEL" class="project-link">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Portal Gubernamental</h3>
+                    <p>Sitio web informativo con sistema de gestión de contenido y formularios interactivos.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--Proyecto 4-->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="img/acuashop.jpeg" alt="Proyecto 3">
+                    <div class="project-links">
+                        <a href="../../pruebas1/deepseek/acuario_shop" class="project-link">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Acuario shop</h3>
+                    <p>Sitio web informativo con sistema de compras y formularios de inicio de sesión.</p>
+                    <div class="project-tech">
+                        <span>Laravel</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="section">
+        <div class="section-header">
+            <h2>Mis <span>Habilidades</span></h2>
+            <p>Tecnologías que domino</p>
+        </div>
+        
+        <div class="skills-container">
+            <div class="skills-category">
+                <h3>Lenguajes</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>PHP</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>JavaScript/TypeScript</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Python</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>HTML5/CSS3</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 95%"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-category">
+                <h3>Frameworks</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Laravel</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Angular</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>React</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 75%"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-category">
+                <h3>Otras Tecnologías</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Git</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>MySQL</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Docker</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--progress: 70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section id="experiencia" class="section">
+        <div class="section-header">
+            <h2>Mi <span>Experiencia</span></h2>
+            <p>Trayectoria profesional</p>
+        </div>
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">Oct 2024 - Ene 2025</div>
+                    <h3>Técnico en Diseño Web y Comunicación Digital</h3>
+                    <h4>Educación Médica Especializada</h4>
+                    <ul>
+                        <li>Desarrollador Web Full-Stack</li>
+                        <li>Diseñador Digital</li>
+                        <li>Social Media Manager</li>
+                    </ul>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">May 2024 - Ago 2024</div>
+                    <h3>Practicante en Desarrollo de Sistemas Geoespaciales</h3>
+                    <h4>Secretaría de Finanzas, Subsecretaria de Ingresos</h4>
+                    <ul>
+                        <li>Diseñé e implementé un sistema de geolocalización para la consulta de claves catastrales</li>
+                        <li>Colaboré en la mejora de procesos administrativos con herramientas digitales</li>
+                    </ul>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">May 2024 - Ago 2024</div>
+                    <h3>Desarrollador Web Interno</h3>
+                    <h4>Escuela Secundaria "Sor Juana Inés de la Cruz"</h4>
+                    <ul>
+                        <li>Desarrollé y mantuve un sistema de control escolar para la gestión de estudiantes y horarios</li>
+                        <li>Implementé funcionalidades de registro y administración de usuarios con acceso controlado</li>
+                    </ul>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+        <div class="section-header">
+            <h2>Contáct<span>ame</span></h2>
+            <p>¿Tienes un proyecto en mente? Hablemos</p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <a href="mailto:delacruzarturo896@gmail.com">delacruzarturo896@gmail.com</a>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Teléfono</h3>
+                        <a href="tel:+527221838265">722 183 8265</a>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://github.com/Artur896" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/arturo-de-la-cruz-1281992aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/arturo.delacruz.16503" class="social-link"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Nombre completo" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" placeholder="Asunto">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Tu mensaje" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    Enviar mensaje <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <a href="#inicio" class="logo">
+                    <span class="logo-code">Arturo</span><span class="logo-bracket">()</span>
+                </a>
+                <p>TSU en Tecnologías de la Información con especialidad en entornos virtuales y negocios digitales.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h3>Enlaces rápidos</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h3>Contacto</h3>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> delacruzarturo896@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> 722 183 8265</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> Arturo de la Cruz. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botón flotante -->
+    <a href="#inicio" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script>
+        // Actualizar año en el footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        
+        // Cargador
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('loader').style.opacity = '0';
+                setTimeout(function() {
+                    document.getElementById('loader').style.display = 'none';
+                }, 500);
+            }, 1500);
+        });
+    </script>
+    <script>
+        const cards = document.querySelectorAll('.project-card');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'fadeInUp 1s ease-out forwards';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        cards.forEach(card => {
+            card.style.opacity = '0';
+            observer.observe(card);
+        });
+    </script>
+    <script>
+        window.addEventListener("scroll", function () {
+            const header = document.querySelector("header");
+            header.classList.toggle("scrolled", window.scrollY > 50);
+        });
+    </script>
+    <script>
+        particlesJS("particles-js", {
+        "particles": {
+            "number": { "value": 20 },
+            "shape": {
+            "type": "image",
+            "image": [
+                { "src": "icons/html5.png", "width": 20, "height": 20 },
+                { "src": "icons/css3.png", "width": 20, "height": 20 },
+                { "src": "icons/js.png", "width": 20, "height": 20 },
+                { "src": "icons/python.png", "width": 20, "height": 20 }
+            ]
+            },
+            "size": { "value": 15 },
+            "move": {
+            "speed": 2,
+            "direction": "none",
+            "out_mode": "out"
+            }
+        }
+        });
+    </script>
+    <script>
+        const toggle = document.getElementById('menu-toggle');
+        const nav = document.querySelector('nav');
+
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
